@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GreenSense – Smart Insights for Small Greenhouse Farmers</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <!-- ================= HEADER / NAVBAR ================= -->
+    <header class="header">
+        <div class="container header__content">
+            <a href="#hero" class="logo">
+                <span class="logo__icon">🌱</span>
+                <span class="logo__text">GreenSense</span>
+            </a>
+
+            <nav class="nav">
+                <a href="#features">Features</a>
+                <a href="#how-it-works">How It Works</a>
+                <a href="#benefits">Benefits</a>
+                <a href="#future">Future</a>
+                <a href="#cta" class="nav__cta">Get Started</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section id="hero" class="hero">
+        <div class="container hero__content">
+            <div class="hero__text">
+                <h1>Smart Insights for Small Greenhouse Farmers</h1>
+                <p class="hero__subtitle">
+                    GreenSense turns your everyday farm transactions into clear,
+                    actionable insights—helping you reduce waste, save money, and
+                    grow more profitably without complicated tools.
+                </p>
+                <div class="hero__actions">
+                    <a href="#cta" class="btn btn--primary">Start with GreenSense</a>
+                    <a href="#features" class="btn btn--ghost">See Features</a>
+                </div>
+                <p class="hero__note">
+                    No complex spreadsheets. No expensive equipment. Just simple,
+                    smart farm management.
+                </p>
+            </div>
+
+            <!-- Visual mockup card -->
+            <div class="hero__visual">
+                <div class="dash-card">
+                    <div class="dash-card__header">
+                        <span>Farm Overview</span>
+                        <span class="pill pill--success">Profitable</span>
+                    </div>
+
+                    <div class="dash-card__body">
+                        <div class="dash-metric">
+                            <span class="dash-metric__label">Top Crop</span>
+                            <span class="dash-metric__value">Leafy Greens</span>
+                            <span class="dash-metric__change">+28% profit</span>
+                        </div>
+                        <div class="dash-metric">
+                            <span class="dash-metric__label">Waste Reduced</span>
+                            <span class="dash-metric__value">-32%</span>
+                            <span class="dash-metric__change dash-metric__change--good">
+                                Less overplanting
+                            </span>
+                        </div>
+
+                        <div class="dash-chart">
+                            <div class="dash-chart__bar dash-chart__bar--1"></div>
+                            <div class="dash-chart__bar dash-chart__bar--2"></div>
+                            <div class="dash-chart__bar dash-chart__bar--3"></div>
+                            <div class="dash-chart__bar dash-chart__bar--4"></div>
+                        </div>
+
+                        <ul class="dash-list">
+                            <li>Track purchases & sales in one place</li>
+                            <li>See which crops earn the most</li>
+                            <li>Get alerts when costs spike</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FEATURES / HIGHLIGHTS ================= -->
+    <section id="features" class="section section--light">
+        <div class="container">
+            <div class="section__header">
+                <h2>Why Farmers Choose GreenSense</h2>
+                <p>
+                    Built for small greenhouse and indoor farms that need
+                    clear financial visibility, smart planning, and less waste.
+                </p>
+            </div>
+
+            <div class="grid grid--3">
+                <article class="card">
+                    <h3>Transaction Tracking</h3>
+                    <p>
+                        Log every purchase and sale—seeds, fertilizer, soil,
+                        and harvested crops—using a phone or computer. Your
+                        data stays organized and ready for analysis.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>AI-Powered Insights</h3>
+                    <p>
+                        GreenSense automatically analyzes expenses, sales,
+                        and crop performance to show profit per crop, cost per
+                        plant, and seasonal trends.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Alerts & Suggestions</h3>
+                    <p>
+                        Receive alerts when costs rise, crops underperform,
+                        or a specific crop becomes highly profitable so you can
+                        adjust planting and spending.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Easy Reports</h3>
+                    <p>
+                        View simple charts and summaries—no confusing
+                        spreadsheets—so you can see how your farm is doing at a glance.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Designed for Small Farms</h3>
+                    <p>
+                        Unlike complex enterprise tools, GreenSense is
+                        affordable, focused, and built specifically for small-scale
+                        growers.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <h3>Actionable, Not Overwhelming</h3>
+                    <p>
+                        Focus on decisions that matter: what to plant, where
+                        money is going, and which customers or markets are most
+                        profitable.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= VISUAL ELEMENT SECTION ================= -->
+    <section class="section visual">
+        <div class="container visual__content">
+            <div class="visual__image">
+                <!-- Simple illustrative layout using pure CSS -->
+                <div class="visual-card visual-card--primary">
+                    <h3>Know Your Best Crops</h3>
+                    <p>Identify which crops bring in the highest return.</p>
+                </div>
+                <div class="visual-card visual-card--secondary">
+                    <h3>Reduce Waste</h3>
+                    <p>Plant the right amount and avoid spoilage.</p>
+                </div>
+                <div class="visual-card visual-card--tertiary">
+                    <h3>Plan Next Season</h3>
+                    <p>Use historical data to guide your next planting cycle.</p>
+                </div>
+            </div>
+
+            <div class="visual__text">
+                <h2>From Transactions to Smart Decisions</h2>
+                <p>
+                    Every purchase and sale you make is valuable data. GreenSense
+                    turns that data into a clear picture of your farm’s health so
+                    you can grow smarter, not harder.
+                </p>
+
+                <ul class="icon-list">
+                    <li>
+                        <span class="icon-list__icon">✅</span>
+                        <span class="icon-list__text">See which crops are truly profitable.</span>
+                    </li>
+                    <li>
+                        <span class="icon-list__icon">💧</span>
+                        <span class="icon-list__text">Avoid overwatering and overplanting.</span>
+                    </li>
+                    <li>
+                        <span class="icon-list__icon">📈</span>
+                        <span class="icon-list__text">Spot trends across seasons and markets.</span>
+                    </li>
+                    <li>
+                        <span class="icon-list__icon">🧾</span>
+                        <span class="icon-list__text">Understand real production costs per crop.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= INFORMATION / DETAILS ================= -->
+    <section id="how-it-works" class="section section--light">
+        <div class="container">
+            <div class="section__header">
+                <h2>How GreenSense Works</h2>
+                <p>A simple four-step process tailored to small greenhouse farms.</p>
+            </div>
+
+            <div class="steps">
+                <div class="step">
+                    <span class="step__number">1</span>
+                    <div class="step__body">
+                        <h3>Track Transactions</h3>
+                        <p>
+                            Log purchases like seeds, soil, fertilizer, and record
+                            every sale to markets, restaurants, or subscription boxes.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <span class="step__number">2</span>
+                    <div class="step__body">
+                        <h3>Let AI Analyze</h3>
+                        <p>
+                            GreenSense automatically analyzes sales, expenses,
+                            and crop performance to calculate profits and costs.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <span class="step__number">3</span>
+                    <div class="step__body">
+                        <h3>Receive Alerts & Reports</h3>
+                        <p>
+                            Get alerts when spending spikes or crops underperform,
+                            plus clear reports showing which crops and customers
+                            are most profitable.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <span class="step__number">4</span>
+                    <div class="step__body">
+                        <h3>Act & Grow Smarter</h3>
+                        <p>
+                            Adjust your planting plan, spending, and market focus
+                            based on real data—not guesswork.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= BENEFITS & WHO IT'S FOR ================= -->
+    <section id="benefits" class="section">
+        <div class="container benefits">
+            <div class="benefits__block">
+                <h2>Benefits for Small Greenhouse Farmers</h2>
+                <ul class="checklist">
+                    <li>Save money by seeing exactly where costs go.</li>
+                    <li>Reduce waste from overplanting and unsold crops.</li>
+                    <li>Increase profits by focusing on high-performing crops.</li>
+                    <li>Plan seasons better using historical trends.</li>
+                    <li>Gain peace of mind while GreenSense watches the numbers.</li>
+                </ul>
+            </div>
+
+            <div class="benefits__block">
+                <h2>Who Can Use GreenSense?</h2>
+                <ul class="checklist">
+                    <li>Small-scale greenhouse and tunnel farmers.</li>
+                    <li>Indoor farms and vertical farming setups.</li>
+                    <li>Growers selling directly to markets or restaurants.</li>
+                    <li>Backyard and local commercial growers wanting to scale.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FUTURE SECTION (INFO / VISUAL) ================= -->
+    <section id="future" class="section section--soft">
+        <div class="container">
+            <div class="section__header">
+                <h2>The Future with GreenSense</h2>
+                <p>
+                    GreenSense is growing alongside your farm—bringing in
+                    smarter tools and deeper insights over time.
+                </p>
+            </div>
+
+            <div class="grid grid--3">
+                <article class="card card--soft">
+                    <h3>IoT Integration</h3>
+                    <p>
+                        Connect simple IoT devices for harvest tracking and
+                        environmental monitoring inside your greenhouse.
+                    </p>
+                </article>
+                <article class="card card--soft">
+                    <h3>Demand Forecasting</h3>
+                    <p>
+                        Forecast crop demand using market trends so you
+                        plant exactly what your buyers need.
+                    </p>
+                </article>
+                <article class="card card--soft">
+                    <h3>Personalized Plans</h3>
+                    <p>
+                        Receive tailored recommendations for planting schedules
+                        and crop selection based on your own farm’s history.
+                    </p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FINAL CTA SECTION ================= -->
+    <section id="cta" class="section section--cta">
+        <div class="container cta">
+            <div class="cta__text">
+                <h2>Ready to make your greenhouse farm smarter and more profitable?</h2>
+                <p>
+                    Sign up to start tracking transactions, analyzing trends, and
+                    receiving clear recommendations from GreenSense.
+                </p>
+            </div>
+
+            <form class="cta__form">
+                <div class="cta__fields">
+                    <label class="sr-only" for="cta-email">Email</label>
+                    <input
+                        id="cta-email"
+                        type="email"
+                        placeholder="you@example.com"
+                        required
+                    />
+                    <button type="submit" class="btn btn--primary">
+                        Get Early Access
+                    </button>
+                </div>
+                <p class="cta__note">No credit card required. You can cancel anytime.</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer__content">
+            <div>
+                <p class="footer__brand">© 2025 GreenSense. All rights reserved.</p>
+                <p class="footer__text">Smart insights for small greenhouse farmers.</p>
+            </div>
+            <div class="footer__links">
+                <a href="mailto:hello@greensense.farm">hello@greensense.farm</a>
+                <a href="#hero">Back to top</a>
+                <div class="footer__social">
+                    <a href="#" aria-label="GreenSense on Facebook">Fb</a>
+                    <a href="#" aria-label="GreenSense on Instagram">Ig</a>
+                    <a href="#" aria-label="GreenSense on X">X</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
