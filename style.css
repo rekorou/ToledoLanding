@@ -1,4 +1,4 @@
-/* ================= GLOBAL BASE STYLES ================= */
+
 
 *,
 *::before,
@@ -55,7 +55,7 @@ a {
     padding: 0 1.5rem;
 }
 
-/* Utility: screen reader only */
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -67,7 +67,7 @@ a {
     border: 0;
 }
 
-/* ================= HEADER ================= */
+
 
 .header {
     position: sticky;
@@ -127,7 +127,7 @@ a {
     background: rgba(34, 197, 94, 0.08);
 }
 
-/* ================= HERO ================= */
+
 
 .hero {
     padding: 4rem 0 3.5rem;
@@ -169,7 +169,7 @@ a {
     justify-content: center;
 }
 
-/* Dashboard-style card */
+
 .dash-card {
     width: 100%;
     max-width: 360px;
@@ -235,7 +235,7 @@ a {
     color: #16a34a;
 }
 
-/* Simple bar chart */
+
 .dash-chart {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -269,7 +269,7 @@ a {
     color: var(--gs-muted);
 }
 
-/* ================= SECTIONS & TYPOGRAPHY ================= */
+
 
 .section {
     padding: 3.5rem 0;
@@ -303,7 +303,7 @@ a {
     color: var(--gs-muted);
 }
 
-/* ================= GRID & CARDS ================= */
+
 
 .grid {
     display: grid;
@@ -338,7 +338,7 @@ a {
     color: var(--gs-muted);
 }
 
-/* ================= VISUAL SECTION ================= */
+
 
 .visual__content {
     display: grid;
@@ -390,7 +390,7 @@ a {
     margin-bottom: 1rem;
 }
 
-/* Icon list */
+
 .icon-list {
     list-style: none;
     display: grid;
@@ -408,7 +408,7 @@ a {
     align-items: flex-start;
 }
 
-/* ================= STEPS (HOW IT WORKS) ================= */
+
 
 .steps {
     display: grid;
@@ -445,7 +445,7 @@ a {
     color: var(--gs-muted);
 }
 
-/* ================= BENEFITS ================= */
+
 
 .benefits {
     display: grid;
@@ -467,7 +467,7 @@ a {
     margin-right: 0.35rem;
 }
 
-/* ================= CTA ================= */
+
 
 .cta {
     display: grid;
@@ -514,7 +514,7 @@ a {
     opacity: 0.95;
 }
 
-/* ================= BUTTONS ================= */
+
 
 .btn {
     display: inline-flex;
@@ -553,7 +553,7 @@ a {
     color: var(--gs-primary-dark);
 }
 
-/* ================= FOOTER ================= */
+
 
 .footer {
     border-top: 1px solid var(--gs-border);
@@ -597,7 +597,7 @@ a {
     padding: 0.18rem 0.5rem;
 }
 
-/* ================= RESPONSIVE DESIGN ================= */
+
 
 @media (max-width: 960px) {
     .hero__content,
